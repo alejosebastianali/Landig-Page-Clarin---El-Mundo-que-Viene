@@ -154,6 +154,13 @@ margin-top: -33px;
 margin-left: -115px;
 }
 
+.der{
+float: right;
+margin-top: -60px;
+margin-left: 160px;
+
+}
+
 .boton-play:hover {
 cursor: pointer;
 background-color: #D20022;
