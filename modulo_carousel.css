@@ -39,6 +39,9 @@
           justify-content: space-between;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .cont-slider .info-slider .datos-slider {
@@ -50,16 +53,17 @@
 .cont-slider .info-slider .datos-slider .fecha-slider h1 {
   font-family: "antonio-bold-webfont.woff";
   font-size: 80px;
-  margin: 30px 30px 30px 0px;
+  margin: 0px 10px 0px 0px;
   padding: 0px;
-  color: #dedadb;
+  color: #797D7F;
 }
 
 .cont-slider .info-slider .datos-slider .mesa-slider h4 {
   font-family: "portada-italic-webfont";
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 200;
   color: #DB1F2F;
+  margin: 0px;
 }
 
 .cont-slider .info-slider .contenido-slider {
@@ -205,7 +209,7 @@
   font-weight: 400;
   margin: 0px;
   padding: 0px;
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   text-transform: uppercase;
 }
@@ -217,10 +221,10 @@
 
 .video-charla {
   width: 100%;
-  padding-top: 56.25%;
+  padding-top: 40%;
   position: relative;
   overflow: hidden;
-  margin: 30px 0px;
+  margin: 12px 0px;
 }
 
 .resp-iframe {
@@ -239,8 +243,8 @@
     padding: 0px;
   }
   .cont-slider .info-slider .datos-slider .fecha-slider h1 {
-    font-size: 70px;
-    margin: 15px 15px 0px 0px;
+    font-size: 55px;
+    margin: 0px 10px 0px 0px;
   }
   .cont-slider .info-slider .datos-slider .mesa-slider {
     width: 100%;
@@ -248,14 +252,22 @@
     text-align: center;
   }
   .cont-slider .info-slider .datos-slider .mesa-slider h4 {
-    margin-top: 50px;
+    margin-top: 20px;
     font-size: 20px;
+  }
+  .cont-slider .info-slider .contenido-slider .titulo-slider {
+    padding: 10px 0px 10px 10px;
   }
   .cont-slider .info-slider .contenido-slider .titulo-slider h2 {
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+  .cont-slider .info-slider .contenido-slider .bajada-slider {
+    padding: 10px 0px 10px 10px;
   }
   .cont-slider .info-slider .contenido-slider .bajada-slider h3 {
-    font-size: 20px;
+    font-size: 18px;
+    letter-spacing: 0px;
   }
   .cont-slider .auspicio-slider {
     -webkit-box-orient: vertical;
