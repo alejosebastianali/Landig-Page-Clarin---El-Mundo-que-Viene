@@ -11,6 +11,16 @@
     <!-- CSS principal -->
     <link rel="stylesheet" href="styles.min.css">
 
+    <link rel="stylesheet" href="modulo_carousel.css">
+    
+    <!-- CSS Carousel -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+/>
 
 </head>
 
@@ -20,35 +30,47 @@
     <article class="oradores">
         <!-- Header -->
         <header class="header">
+ 
             <!-- Titulo Header -->
-            <div class="header-title">
-                <img src="images/icon-world.svg" alt="Oradores">
-                <h1>EL MUNDO QUE VIENE </h1>
+            <div class="cont-titulo-general">
+                <div class="titulo-general">
+                    <img src="images/icon-world.svg" alt="Oradores">
+                    <h1>EL MUNDO QUE VIENE</h1></div>
             </div>
+
+            <div class="cont-subtitulo">
+                <div class="subtitulo-general">
+                    <h2>CLAVES PARA EL FUTURO</h2>
+  
+                </div>
+                
+                <div class="cont-parrafo">
+                    <div class="parrafo"><p><strong>Clarín</strong> presenta un ciclo de <strong>10 mesas de diálogo</strong> para analizar cómo será el mundo que viene. Los cambios que habrá en el trabajo, la economía y la sociedad, debatidos por los máximos referentes de cada sector, representantes de las mayores empresas, especialistas y emprendedores.</p>
+                    
+                    <p>Un diálogo profundo para entender cómo las tendencias que hoy empiezan a definirse modificarán nuestro futuro.</p>
+
+                    <p>Un debate sobre los cambios en cómo se vive y cómo se trabaja, en la salud, en el transporte, en cómo se maneja el dinero. Y también sobre el rol de las mujeres y de las nuevas generaciones, así como los desafíos que enfrentan el campo y la energía.</p> 
+
+                    <p>Un ciclo que recorrerá el año, imprescindible para entender los desafíos del mañana.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Logo Clarin-->
+            <div class="cont-logo-clarin"><img src="images/logo-clarin.svg" alt="Clarín"></div>
+
             <!-- Contenido Header -->
             <div class="header-content">
-                <div class="header-subtitle">
-                    <h2>CLAVES PARA EL FUTURO</h2>
-                </div>
-                <div class="header-text">
-                    <p><strong>Clarín</strong> presenta un ciclo de <strong>10 mesas de diálogo</strong> para analizar cómo será el mundo que viene. Los cambios que habrá en <em>el trabajo, la economía y la sociedad</em>, debatidos por los
-                        máximos referentes de cada sector,
-                        representantes
-                        de las mayores empresas, especialistas y emprendedores.</p>
-                    <p>Un diálogo profundo para entender cómo las tendencias que hoy empiezan a definirse modificarán nuestro futuro.</p>
-                    <p>Un debate sobre los cambios en cómo se vive y cómo se trabaja, en la salud, en el transporte, en cómo se maneja el dinero. Y también sobre el rol de las mujeres y de las nuevas generaciones, así como los desafíos
-                        que
-                        enfrentan el campo y la energía.</p>
-                    <p>Un ciclo que recorrerá el año, imprescindible para entender los desafíos del mañana.</p>
-                </div>
-                <img src="images/logo-clarin.svg" alt="Clarín" width="324" class="header-clarin">
+
+
+
+                <div class="header-subtitle --col"></div>
+
             </div>
             </div>
         </header>
 
-        <!-- Evento -->
         <main>
-            <!-- Evento 02 -->
             <section id="eventoscont"  class="evento">
 
                 <div id="proximascont" class="proximas">        
@@ -67,16 +89,19 @@
                             <div id="sponsorscont"  class="sponsors-logos">
                                 <a href="https://www.telecom.com.ar" target="_blank"><img src="images/sponsor-silver-telecom.svg" alt="Telecom"></a>
                                 <a href="http://www.afarte.org.ar" target="_blank"><img src="images/sponsor-silver-afarte.svg" alt="Afarte"></a>
+                                <a href="https://www.axionenergy.com/Paginas/index.aspx" target="_blank"><img src="images/auspicio-axion.jpg" alt="Axion"></a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </section>
 
+             <!-- Evento Actual -->
+             <section id="eventosimple" class="evento" >
                 <!-- Info de la Transmisión -->
                 <div class="--row">
                     <div class="evento-transmision --col50">
-                        <div class="evento-numero">02</div>
-                        <!--
+                        <div class="evento-numero">03</div>
                         <div class="evento-social">
                             <p>Mirá la transmisión en <a href="https://clarin.com" target="_blank">Clarin.com</a>
                                 <em>y en nuestras redes sociales
@@ -87,261 +112,261 @@
                                     </span></em>
                             </p>
                         </div>
-                        -->
                     </div>
                 </div>
 
                 <!-- Info del Evento -->
                 <div class="--row --align-r">
-                    <div id="megatitulo" class="evento-nombre --col50">
-                        <h3>PAGAR SIN TOCAR EL DINERO</h3>
+                    <div class="evento-fecha --col50 --align-l">
+                        <div id="eventonombre" class="evento-hora"><h2>EL CAMPO, SIEMPRE PRESENTE</h2></div>
                     </div>
                 </div>
-
-                <div class="--row --align-r">
-                    <div id="eventosinpad" class="evento-descripcion --col50">
-                        <div class="header-text">
-                            <p>El dinero electrónico gana terreno día a día. Los bancos crecen en sus negocios online, desde sucursales virtuales a comercio en la web. Las billeteras virtuales ganan terreno en las operaciones del día a día, en el bolsillo del consumidor. Y crecen las empresas que desarrollan las redes necesarias para la digitalización de la economía, las que conectan a los comercios con las empresas y las instituciones financieras, las que administran las transacciones. Es una tendencia mundial, que en la Argentina crece aceleradamente. Y que se potenció por impacto de la pandemia.</p>
-                        </div>                        
-                    </div>
-                </div>
-
-                <div class="--row --align-l">
-                    <div id="eventosinpad" class="evento-descripcion --col50">
-                        <div class="proximas-meta">
-                            <p>Primera Mesa de Diálogo</p>
-                        </div>                      
-                    </div>
-                </div>
-
-                <!--Primera Mesa de Dialogo-->
-                <div class="--row --align-l">
-                    <div class="evento-nombre --col50">
-                        <h3>UN NEGOCIO QUE CAMBIA Y CRECE</h3>
-                    </div>
-                </div>
-
-                <div class="--row --align-r">
-                    <div class="evento-fecha --col50">
-                        <div class="cont-boton-play">
-                            MIRALO ACA<a href="https://youtu.be/SYscYyuewkM" target="_blank"><span class="boton-play der"></span></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="--row --align-l">
-                    <div id="eventosinpad" class="evento-descripcion --col50">
-                            <p>Los grandes bancos privados y de capital estatal son hoy actores de peso en el negocio del dinero electrónico. Avanzan con billeteras virtuales, tiendas online, operaciones a distancia. Se acercan al cliente y mejoran sus resultados. Lo mismo sucede con las empresas industriales, de energía, de servicios, que desafían sus posiciones en el mercado con herramientas digitales.</p>
-                    </div>
-                </div>
-                    
-                                <!-- Lista de oradores Eventos 02-->
-                                <div class="--row">
-                                    <div id="eventonuevos" class="evento-oradores">
-                                        <div class="orador">
-                                            <img src="images/3105/gabriela-saavedra.jpg" alt="Gabriela Saavedra">
-                                            <h4>GABRIELA SAAVEDRA</h4>
-                                            <p>Socia Líder de Servicios Financieros de <strong>KPMG</strong></p>
-                                        </div>
-                                        <div class="orador">
-                                            <img src="images/3105/brian-anthony.jpg" alt="Brian Anthony">
-                                            <h4>BRIAN ANTHONY</h4>
-                                            <p>Gerente de Banca Comercial de <strong>Banco Macro</strong></p>
-                                        </div>
-                                        <div class="orador">
-                                            <img src="images/3105/sandra-yachelini.jpg" alt="Sandra Yachelin">
-                                            <h4>SANDRA YACHELINI</h4>
-                                            <p>VP Comercial y Marketing Downstream de <strong>PAE</strong></p>
-                                        </div>
-                                        <div class="orador">
-                                            <img src="images/3105/eduardo-hecker.jpg" alt="Eduardo Hecker">
-                                            <h4>EDUARDO HECKER</h4>
-                                            <p>Presidente de <strong>ABAPPRA</strong> y de <strong>Banco Nación</strong> </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-            <div class="--row --align-l">
-                <div id="eventosinpad" class="evento-descripcion --col50">
-                    <div id="proximasmesas" class="proximas-meta">
-                        <p>Segunda Mesa de Diálogo</p>
-                    </div>                      
-                </div>
-            </div>                    
-
-            <!--Segunda Mesa de Dialogo-->   
-
-            <div class="--row --align-l">
-                <div class="evento-nombre --col50">
-                    <h3>DESAFÍOS DE CARA AL CONSUMIDOR</h3>
-                </div>
-                        
-                <!--Mira la transmicion en vivo-->
-                <!-- 
-                        <div id="eventoderecha" class="evento-social --col50 --align-r">
-                            <p>Mirá la transmisión en <a href="https://clarin.com" target="_blank">Clarin.com</a>
-                                <em>y en nuestras redes sociales
-                                    <span class="redessociales">
-                                        <a href="https://www.youtube.com/user/clarinwebtv" target="_blank"><img src="images/social-youtube.svg" alt="Youtube"></a>
-                                        <a href="https://www.facebook.com/clarincom" target="_blank"><img src="images/social-facebook.svg" alt="Facebook"></a>
-                                        <a href="https://twitter.com/clarincom" target="_blank"><img src="images/social-twitter.svg" alt="Twitter"></a>
-                                    </span></em>
-                            </p>
-                        </div>
-                -->
-
-            </div>
-
-            <div class="--row --align-r">
-                <div class="evento-fecha --col50">
-                    <div class="cont-boton-play">
-                        MIRALO ACA<a href="https://youtu.be/F-orHV9tBr0" target="_blank"><span class="boton-play der"></span></a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="--row --align-l">
-                <div id="eventosinpad" class="evento-descripcion --col50">
-                    <p>Las billeteras virtuales desembarcaron fuerte en el mercado, en el bolsillo del consumidor. Generan nuevas formas de comprar, relaciones dinámicas entre las empresas y sus clientes. Cada uno con su modelo de negocio. Junto a ellos crecen las compañías especializadas en conectar las redes de comercios con los sistemas de pago, en desarrollar la tecnología y la infraestructura para los pagos digitales. Un mundo que crece a pasos acelerados y que se potenció en el último año.</p>
-                </div>
-
-                <!--Oradores Especialaes-->
-                <div class="--row">
-                    <div id="eventonuevos" class="evento-oradores">
-                        <div id="oradorespecial"  class="orador orador-especial">
-                            <img src="images/3105/maria-arregui.jpg" alt="Maria Arregui">
-                            <h4>MARÍA PAULA ARREGUI</h4>
-                            <p>COO <strong>MercadoPago</strong></p>
-                        </div>
-                        <div id="oradorespecial" class="orador orador-especial">
-                            <img src="images/3105/ignacio-zapiola.jpg" alt="Ignacio Giménez Zapiola">
-                            <h4>IGNACIO GIMÉNEZ ZAPIOLA</h4>
-                            <p>CEO de <strong>Bimo</strong></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                
-            <!-- Lista de oradores Segunda Mesa Eventos 02-->
-            <div class="--row">
-                <div id="eventonuevos" class="evento-oradores">
-                    <div class="orador">
-                        <img src="images/3105/pierpaolo-barbieri.jpg" alt="Pierpaolo Barbieri">
-                            <h4>PIERPAOLO BARBIERI</h4>
-                            <p>Fundador de <strong>Ualá</strong></p>
-                    </div>
-                    <div class="orador">
-                        <img src="images/3105/javier-cesari.jpg" alt="Javier Cesari">
-                            <h4>JAVIER CESARI</h4>
-                            <p>Gerente General Latinoamérica Sur de <strong>Fiserv</strong></p>
-                    </div>
-                    <div class="orador">
-                        <img src="images/3105/federico-cofman.jpg" alt="Federico Cofman">
-                            <h4>FEDERICO COFMAN</h4>
-                            <p>CEO de <strong>Payway</strong></p>
-                    </div>
-                </div>
-            </div>
-                            
-                    <!-- Logos Auspician -->
-                    <div class="auspicios">
-                            <div><h5>AUSPICIAN</h5></div>
-                        <div class="auspiciantes">
-                                <a href="https://www.axionenergy.com/Paginas/index.aspx" target="_blank"><img src="images/auspicio-axion.jpg" alt="Axion Energy" class="logo-auspicio-a"></a>
-                                <img src="images/auspicio-payway.svg" alt="Pay Way" class="logo-auspicio-b">
-                                <a href="https://www.fiserv.com.ar/" target="_blank"><img src="images/auspicio-fiserv.svg" alt="Fiserv" class="logo-auspicio-b"></a>
-                        </div>
-                    </div>
-    
-            </section>
-
-            <!-- Evento 01 -->
-            <section class="evento">
-
-                <!-- Info de la Transmisión -->
-                <div class="--row">
-                    <div class="evento-transmision --col50">
-                        <div class="evento-numero">01</div>
-                    </div>
-                </div>
-
-                <!-- Info del Evento -->
-                <div class="--row --align-r">
-                    <div class="evento-nombre --col50">
-                        <h3>CAMBIOS EN EL TRABAJO</h3>
-                    </div>
-                </div>
-
 
                 <div class="--row">
                     <div class="evento-fecha --col50 --align-r">
-                        <div class="cont-boton-play">
-                            <a href="https://youtu.be/oF93029FlFc" target="_blank"><span class="boton-play"></span></a> MIRALO ACA
-                        </div>
+                        <div class="evento-dia">05/07</div>
+                        <div class="evento-hora">11AM</div>
                     </div>
                 </div>
 
                 <div class="--row --align-r">
                     <div class="evento-descripcion --col50">
-                        <p>La manera de trabajar cambia. Hay más empleados online y oficinas que se vacían, nuevas normas y hábitos. Y también un contexto distinto aún para los trabajos más tradicionales. Cómo impactarán estas tendencias en
-                            el
-                            futuro.
-                        </p>
+                        <p>La suba del precio de los granos fue un salvavidas para la economía argentina en
+                        2021. Pero a la vez ese alza puso presión sobre los alimentos en el mercado interno,
+                        generando tensiones. La exportación de carne se transformó en un punto crítico
+                        entre productores y Gobierno. Cómo evolucionará el campo en el mundo que viene.</p> 
+                        <br>
+                        <p>   
+                        Cuál será el rol del sector agropecuario para asegurar la alimentación de los argentinos
+                        y fortalecer el flujo de divisas. Qué oportunidades comerciales tiene el país.
+                        Cuáles son las demandas de los consumidores. La infraestructura como clave para sostener el crecimiento. Las nuevas tecnologías que empujan la producción.</p>
                     </div>
                 </div>
 
-                <!-- Lista de oradores -->
-                <div class="--row">
-                    <div class="evento-oradores">
-                        <div class="orador">
-                            <img src="images/3105/roberto-nobile.jpg" alt="Roberto Nobile">
-                            <h4>Roberto Nobile</h4>
-                            <p>CEO de Telecom Argentina.</p>
-                        </div>
-                        <div class="orador">
-                            <img src="images/3105/brenda-puig.jpg" alt="Brenda Puig">
-                            <h4>Brenda Puig</h4>
-                            <p>Líder de la Red de Abogados de Empresa de IDEA</p>
-                        </div>
-                        <div class="orador">
-                            <img src="images/3105/sergio-kaufman.jpg" alt="Sergio Kaufman">
-                            <h4>Sergio Kaufman</h4>
-                            <p>Presidente de <strong>Accenture Argentina</strong> y de la región de Sudamérica Hispana.</p>
-                        </div>
-                        <div class="orador">
-                            <img src="images/3105/santiago-bilinkis.jpg" alt="Santiago Bilinkis">
-                            <h4>Santiago Bilinkis</h4>
-                            <p>Emprendedor y tecnólogo.</p>
-                        </div>
+                <div class="cont-oradores">
+
+                    <div class="orador-evento">
+                        <img src="images/3105/luis-zubizarreta.jpg" alt="Luis Zubizarreta">
+                        <h4>LUIS ZUBIZARRETA</h4>
+                        <p>Presidente <strong>Acsoja</strong> y <strong>Cámara Biodiesel</strong></p>
                     </div>
+
+                    <div class="orador-evento">
+                        <img src="images/3105/mario-bosch.jpg" alt="Mario Bosch">
+                        <h4>MARIANO BOSCH</h4>
+                        <p>CEO <strong>Adecoagro</strong></p>
+                    </div>
+
+                    <div class="orador-evento">
+                        <img src="images/3105/axel-labourt.jpg" alt="Axel Labourt">
+                        <h4>AXEL LABOURT</h4>
+                        <p>Presidente <strong>Cono Sur Corteva Agriscience</strong></p>
+                    </div>
+
+                    <div class="orador-evento">
+                        <img src="images/3105/tiziana-prada.jpg" alt="Tiziana Prada">
+                        <h4>TIZIANA PRADA</h4>
+                        <p>Presidenta <strong>Asociación Braford Argentina</strong></p>
+                    </div>
+
+                    <div class="orador-evento">
+                        <img src="images/3105/mario-ravettino.jpg" alt="Mario Ravettino">
+                        <h4>MARIO RAVETTINO</h4>
+                        <p>Presidente del <strong>Consorcio de Exportadores de Carnes Argentinas</strong></p>
+                    </div>
+
                 </div>
                 
-                <!-- Video - Cambios en el Trabajo -->
-                <div class="containerVideo">
-                    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/oF93029FlFc"></iframe>
-                </div> 
 
             </section>
-
-            <section class="contenido-editorial">
-                <h3>Contenido editorial: </h3>
-
-                <div class="--row">
-                    <div class="--col40">
-                        <a href="https://www.clarin.com/economia/cambios-trabajo-debate-imprescindible-mundo-viene_0_xxu62xUgQ.html" target="_blank">Los cambios en el trabajo, un debate imprescindible sobre el mundo que viene.</a>
-                    </div>
-                    <div class="--col40">
-                        <a href="https://www.clarin.com/economia/virtual-presencial-trabajo-mundo-pospandemia_0_CJEf89gIV.html" target="_blank">Virtual y presencial: cómo será el trabajo en el mundo de la pospandemia </a>
-                    </div>
-                </div>
-            </section>
+            
         </main>
+
+        <!--Inicio Carousel-->
+        <section id="carousel" class="carousel">
+
+            <div class="carousel">
+				<!-- Cuando uno de estos inputs esta "checked" el carousel se va a desplazar 
+					lo que le indique el translateX en el CSS -->
+				
+                <input checked="checked" class="carousel__activator" id="carousel-slide-activator-1" name="carousel" type="radio"/>
+
+				<input class="carousel__activator" id="carousel-slide-activator-2" name="carousel" type="radio"/>
+
+				<input class="carousel__activator" id="carousel-slide-activator-3" name="carousel" type="radio"/>
+
+				<!-- Los label setean el estado del input radio, lo cual provoca el movimiento.-->
+				<div class="carousel-controls">
+					<label class="carousel-control carousel__control--forward" for="carousel-slide-activator-2">
+						<i class="fas fa-chevron-right"></i>
+					</label>
+				</div>
+
+				<div class="carousel-controls">
+					<label class="carousel-control carousel__control--backward" for="carousel-slide-activator-1">
+						<!-- Estoy situade en la "segunda pantalla" del carousel, por lo que "activator-1" 
+					me lleva a la pantalla anterior y "activator-3" a la siguiente -->
+						<i class="fas fa-chevron-left"></i>
+					</label>
+
+					<label class="carousel-control carousel__control--forward" for="carousel-slide-activator-3">
+						<i class="fas fa-chevron-right"></i>
+					</label>
+				</div>
+
+				<div class="carousel-controls">
+					<label class="carousel-control carousel__control--backward" for="carousel-slide-activator-2">
+						<i class="fas fa-chevron-left"></i>
+					</label>
+				</div>
+
+				<div class="carousel-screen">
+					<div class="carousel-track">
+						<div class="carousel__item carousel__item--desktop-in-5">
+                            
+                            <!--CONTENIDO 01-->
+                            <div class="cont-slider">
+                                <div class="info-slider">
+                                    <div class="datos-slider">
+                                        <div class="fecha-slider"><h1>02</h1></div>
+                                        <div class="mesa-slider"><h4>Segunda mesa de diálogo</h4></div>
+                                    </div>
+                            
+                                    <div class="contenido-slider">
+                                        <div class="titulo-slider"><h2>PAGAR SIN TOCAR EL DINERO</h2></div>
+                                        <div class="bajada-slider"><h3>DESAFÍOS DE CARA AL CONSUMIDOR</h3></div>
+                                    </div>
+                                </div>
+                                <!--Carga de la charla desde youtube-->
+                                <div class="video-charla">
+                                    <iframe class="resp-iframe" src="https://www.youtube.com/embed/oF93029FlFc"></iframe>
+                                </div>
+                                <!--Detalle de los auspiciantes y links de referencia-->
+                                <div class="auspicio-slider">
+                                    <div class="auspician"><h5>AUSPICIAN</h5></div>
+                                    <div class="auspiciantes-slider">
+                                        <div>
+                                            <a href="https://www.axionenergy.com/Paginas/index.aspx" target="_blank">
+                                                <img id="logo01" src="images/auspicio-axion.jpg" class="size-logo-aunciante" alt="Anunciante Axion">
+                                            </a>
+                                        </div>
+                            
+                                        <div>
+                                            <a href="https://www.prismamediosdepago.com/" target="_blank">
+                                                <img id="logo02" src="images/auspicio-prisma.svg" class="size-logo-aunciante" alt="Anunciante Prisma">
+                                            </a>
+                                        </div>
+                            
+                                        <div>
+                                            <a href="https://www.fiserv.com.ar/" target="_blank">
+                                                <img id="logo03" src="images/auspicio-fiserv.svg" class="size-logo-aunciante" alt="Anunciante Prisma">
+                                            </a>
+                                        </div>
+                                    </div>
+                            
+                                    <div class="cont-editorial">
+                                        <div class="editorial-slider"><h4>Contenido<br>editorial:</h4></div>
+                                        <div class="btn-editorial-slider"><h3>Información de interes </h3></div>
+                                        <div class="btn-editorial-slider"><h3>Información de interes</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CONTENIDO 01-->   
+
+						<div class="carousel__item carousel__item--desktop-in-5">
+                            
+                            <!--CONTENIDO 02-->
+                            <div class="cont-slider">
+                                <div class="info-slider">
+                                    <div class="datos-slider">
+                                        <div class="fecha-slider"><h1>02</h1></div>
+                                        <div class="mesa-slider"><h4>Primera mesa de diálogo</h4></div>
+                                    </div>
+
+                                    <div class="contenido-slider">
+                                        <div class="titulo-slider"><h2>PAGAR SIN TOCAR EL DINERO</h2></div>
+                                        <div class="bajada-slider"><h3>DESAFÍOS DE CARA AL CONSUMIDOR</h3></div>
+                                    </div>
+                                </div>
+                                <!--Carga de la charla desde youtube-->
+                                <div class="video-charla">
+                                    <iframe class="resp-iframe" src="https://www.youtube.com/embed/oF93029FlFc"></iframe>
+                                </div>
+                                <!--Detalle de los auspiciantes y links de referencia-->
+                                <div class="auspicio-slider">
+                                    <div class="auspician"><h5>AUSPICIAN</h5></div>
+                                    <div class="auspiciantes-slider">
+                                        <div>
+                                            <a href="https://www.axionenergy.com/Paginas/index.aspx" target="_blank">
+                                                <img id="logo01" src="images/auspicio-axion.jpg" class="size-logo-aunciante" alt="Anunciante Axion">
+                                            </a>
+                                        </div>
+
+                                        <div>
+                                            <a href="https://www.prismamediosdepago.com/" target="_blank">
+                                                <img id="logo02" src="images/auspicio-prisma.svg" class="size-logo-aunciante" alt="Anunciante Prisma">
+                                            </a>
+                                        </div>
+
+                                        <div>
+                                            <a href="https://www.fiserv.com.ar/" target="_blank">
+                                                <img id="logo03" src="images/auspicio-fiserv.svg" class="size-logo-aunciante" alt="Anunciante Prisma">
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                    <div class="cont-editorial">
+                                        <div class="editorial-slider"><h4>Contenido<br>editorial:</h4></div>
+                                        <div class="btn-editorial-slider"><h3>Información de interes </h3></div>
+                                        <div class="btn-editorial-slider"><h3>Información de interes</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--FIN CONTENIDO 02-->
+
+                        <!--CONTENIDO 01-->
+						<div class="carousel__item carousel__item--desktop-in-5">
+
+                            <div class="cont-slider">
+                                <div class="info-slider">
+                                    <div class="datos-slider">
+                                        <div class="fecha-slider"><h1>01</h1></div>
+                                        <div class="mesa-slider"><h4></h4></div>
+                                    </div>
+
+                                    <div class="contenido-slider">
+                                        <div class="titulo-slider"><h2>CAMBIOS EN EL TRABAJO</h2></div>
+                                    </div>
+                                </div>
+                                <!--Carga de la charla desde youtube-->
+                                <div class="video-charla">
+                                    <iframe class="resp-iframe" src="https://www.youtube.com/embed/oF93029FlFc"></iframe>
+                                </div>
+                                <!--Detalle de los auspiciantes y links de referencia-->
+                                <div class="auspicio-slider">
+
+                                    <div class="cont-editorial">
+                                        <div class="editorial-slider"><h4>Contenido editorial:</h4></div>
+                                        <div class="btn-editorial-slider"><h3>LOS CAMBIOS EN EL TRABAJO, UN DEBATE IMPRESCINDIBLE<br>SOBRE EL MUNDO QUE VIENE</h3></div>
+                                        <div class="btn-editorial-slider"><h3>VIRTUAL Y PRESENCIAL: CÓMO SERÁ EL TRABAJO EN<br>EL MUNDO DE LA POSPANDEMIA.</h3></div>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+                        <!--FIN CONTENIDO 01-->
+
+					</div>
+				</div>
+			</div>
+		</section>
+
 
         <!-- Próximas mesas-->
         <footer class="proximas">
             <div class="proximas-meta">
-                <p>Próximas mesas de <strong>diálogo:</strong></p>
+                <p>Próximas mesas de <b>diálogo:</b></p>
                 <div class="redessociales">
                     <a href="https://www.youtube.com/user/clarinwebtv" target="_blank"><img src="images/social-youtube.svg" alt="Youtube"></a>
                     <a href="https://www.facebook.com/clarincom" target="_blank"><img src="images/social-facebook.svg" alt="Facebook"></a>
@@ -349,32 +374,9 @@
                 </div>
             </div>
             <!-- Texto destacado -->
-            <div class="proximas-enlaces">MUJERES QUE ATRAVIESAN FRONTERAS / LA CLAVE ES LA SALUD / APUESTA POR LA ENERGÍA / ENTRE EL AUTO Y LA BICICLETA / COMER EN CASA / EL CAMPO, SIEMPRE PRESENTE / VIVIR PUERTAS ADENTRO / EL MUNDO DE LOS
-                MILLENIALS.</div>
-
-            <!-- Logos sponsors -->
-
+            <div class="proximas-enlaces">MUJERES QUE ATRAVIESAN FRONTERAS / LA CLAVE ES LA SALUD / APUESTA POR LA ENERGÍA / ENTRE EL AUTO Y LA BICICLETA / COMER EN CASA / VIVIR PUERTAS ADENTRO / EL MUNDO DE LOS MILLENIALS.</div>
         
-            <div class="sponsors">
-                <!--
-                <div class="sponsors-gold">
-                    <h5>GOLD SPONSOR</h5>
-                    <div class="sponsors-logos">
-                        <a href="https://www.macro.com.ar" class="sponsor--macro" target="_blank"><img src="images/sponsor-gold-macro.svg" alt="Macro"></a>
-                        <a href="https://www.osde.com.ar" target="_blank"><img src="images/sponsor-gold-osde.svg" alt="OSDE"></a>
-                        <a href="https://www.desasa.com.ar" target="_blank"><img src="images/sponsor-gold-desa.svg" alt="DESA"></a>
-                    </div>
-                </div>
-                <div class="sponsors-silver">
-                    <h5>SILVER SPONSOR</h5>
-                    <div class="sponsors-logos">
-                        <a href="https://www.telecom.com.ar" target="_blank"><img src="images/sponsor-silver-telecom.svg" alt="Telecom"></a>
-                        <a href="http://www.afarte.org.ar" target="_blank"><img src="images/sponsor-silver-afarte.svg" alt="Afarte"></a>
-                    </div>
-                </div>
-            |-->
-            </div>
-        
+            <div class="sponsors"></div>
 
         </footer>
 
