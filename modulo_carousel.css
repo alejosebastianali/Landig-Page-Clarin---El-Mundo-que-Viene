@@ -1,21 +1,21 @@
 @font-face {
   font-family: "portada-regular-webfont";
-  src: url("Fonts/portada-regular-webfont.woff");
+  src: url("fonts/portada-regular-webfont.woff");
 }
 
 @font-face {
   font-family: "portada-italic-webfont";
-  src: url("Fonts/portada-italic-webfont.woff");
+  src: url("fonts/portada-italic-webfont.woff");
 }
 
 @font-face {
   font-family: "antonio-bold-webfont.woff";
-  src: url("Fonts/antonio-bold-webfont.woff");
+  src: url("fonts/antonio-bold-webfont.woff");
 }
 
 @font-face {
   font-family: "antonio-regular-webfont.woff";
-  src: url("Fonts/antonio-regular-webfont.woff");
+  src: url("fonts/antonio-regular-webfont.woff");
 }
 
 .cont-slider {
