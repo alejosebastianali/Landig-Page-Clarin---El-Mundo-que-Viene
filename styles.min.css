@@ -192,6 +192,21 @@ width: 100%;
 padding: 30px 0px;
 }
 
+.evento-hora{
+width: 100%;
+}
+
+.evento-descripcion p#auspaxion{
+font-family: "antonioregular","Roboto",Arial,Helvetica,sans-serif;
+font-size: 14px !important;
+}
+
+.aupicia-axion{
+width: 100%;
+padding-left: 20px;
+padding-top: 20px;
+}
+
 #eventosinpad.evento-descripcion{
 padding-bottom: 0px;
 }
@@ -316,6 +331,7 @@ margin-top: 20px;
 }
 
 .evento-descripcion{
+padding-top: 30px !important  ;
 padding-bottom: 30px !important ;
 }
 
@@ -646,10 +662,9 @@ opacity: .5;
     .carousel-control {
     width: 30px;
     height: 50px;
-    margin-top: -170px;
+    margin-top: -230px;
     }
 
 }
-
 
 

@@ -186,7 +186,7 @@
 
 .cont-slider .auspicio-slider .cont-editorial h4 {
   font-family: "portada-italic-webfont";
-  font-size: 25px;
+  font-size: 20px;
   line-height: 27px;
   font-weight: 200;
   color: #606060;
@@ -194,17 +194,18 @@
 
 .cont-slider .auspicio-slider .cont-editorial .btn-editorial-slider {
   background-color: #DB1F2F;
-  padding: 30px;
+  padding: 20px;
   margin: 0px 0px 0px 20px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  line-height: 100px;
 }
 
 .cont-slider .auspicio-slider .cont-editorial .btn-editorial-slider h3 {
   font-family: "antonio-regular-webfont.woff";
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.35;
   font-weight: 400;
   margin: 0px;
