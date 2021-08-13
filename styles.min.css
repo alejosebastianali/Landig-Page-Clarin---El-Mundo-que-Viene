@@ -511,7 +511,7 @@ margin-bottom: 15px;
     padding-bottom: 10px;
 }
 
-.proximas-nombre #datos{
+.proximas-nombre{
     font-family: "antonioregular","Roboto",Arial,Helvetica,sans-serif;
     font-size: 35px;
     line-height: 45px;
@@ -885,7 +885,7 @@ opacity: .5;
     margin-top: -230px;
     }
 
-    .proximas-nombre #datos {
+    .proximas-nombre {
         font-size: 25px;
         line-height: 30px;
     }
