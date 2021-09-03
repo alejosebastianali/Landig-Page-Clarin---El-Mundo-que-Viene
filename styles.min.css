@@ -209,7 +209,7 @@ margin-right: auto;
 }
 
 .sponsors-auspician{
-    height: 70px;
+    height: 50px;
 }
 
 .cont-auspiciantes h1{
@@ -454,10 +454,11 @@ margin: 0px;
 padding: 10px;
 border: solid 1px #D20022;
 text-transform: uppercase;
+text-align: center;
 }
 
 .orador-evento p{
-font-family: "portadaregular";
+font-family: "antoniobold";
 font-size: 14px;
 color: #606060;
 margin:0px ;
@@ -774,6 +775,11 @@ opacity: .5;
 
 .sponsors-auspician{
     width: 260px;
+    height: auto;
+}
+
+.sponsors-auspician #trapiche{
+    width: 150px;
     height: auto;
 }
 
