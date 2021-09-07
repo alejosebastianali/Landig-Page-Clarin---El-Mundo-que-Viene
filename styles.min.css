@@ -23,15 +23,15 @@ border: solid 1px #D20022;
 font-family: "antoniobold";
 font-size: 70px;
 color: #D20022;
-letter-spacing: 5px;
+letter-spacing: 10px;
 text-transform: uppercase;
 margin: 15px 0px 0px 0px;
 padding: 0px;
 }
 
 .titulo-general img{
-width: 80px;
-height: 80px;
+width: 100px;
+height: 100px;
 position: absolute;
 transform: translateX(-100px) translateY(-50%);
 }
@@ -59,6 +59,7 @@ height: auto;
     font-family:"antoniobold" ;
     margin-top: 12px;
     padding-left: 60px;
+    letter-spacing: 10px;
     font-size:35px ;
     color: #ffffff;
 }
@@ -123,6 +124,7 @@ height: auto;
     height: auto;
     border: 1px solid #D20022;
     padding: 20px;
+    background-color: #ffffff;
 }
 
 .titulo-charla{
@@ -133,6 +135,7 @@ height: auto;
 .titulo-charla h1{
     font-family:"antoniobold" ;
     font-size:60px ;
+    letter-spacing: 5px;
     color: #D20022;
     padding:20px ;
 }
@@ -220,7 +223,7 @@ margin-right: auto;
     }
 
 .texto-charla p{
-    font-family:"portada-regular" ;
+    font-family:'portadaregular', Georgia, 'Times New Roman', Times, serif ;
     font-size:20px ;
     margin: 20px;
     color: #464749 ;
@@ -664,6 +667,16 @@ opacity: .5;
 .carousel__activator:nth-of-type(6):checked ~ .carousel-screen .carousel-track {
 	-webkit-transform: translateX(-500%);
 	transform: translateX(-500%);
+}
+
+.carousel__activator:nth-of-type(7):checked
+	~ .carousel-controls:nth-of-type(7) {
+	display: flex;
+}
+
+.carousel__activator:nth-of-type(7):checked ~ .carousel-screen .carousel-track {
+	-webkit-transform: translateX(-600%);
+	transform: translateX(-600%);
 }
 
 .carousel-screen {
