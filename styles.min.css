@@ -12,7 +12,7 @@ width: 100%;
 }
 
 .titulo-general{
-width: 80%;
+width: 50%;
 height: auto;
 padding: 15px 15px 15px 60px;
 background-color: #ffffff;
@@ -35,6 +35,99 @@ height: 100px;
 position: absolute;
 transform: translateX(-100px) translateY(-50%);
 }
+
+.cont-datos-mesa-dialogo{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+.cont-mesa-dialogo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.titulo-dialogo{
+    width: 26%;
+}
+
+.fecha-dialogo{
+    width: 12%;
+    background-color:#D20022;
+    border: solid 1px #D20022 ;
+    text-align: center;
+}
+
+.hora-dialogo{
+    width: 12%;
+    background-color:#ffffff;
+    border: solid 1px #D20022;
+    text-align: center;
+}
+
+.titulo-dialogo h1{
+    font-family:'portadaitalic', Georgia, 'Times New Roman', Times, serif ;
+    font-size:24px ;
+    margin: 0px;
+    color: #464749 ;
+    text-align: left;
+}
+
+.fecha-dialogo h3{
+    font-family: "antoniobold";
+    font-size: 35px;
+    margin-top: 13px;
+    letter-spacing: 5px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hora-dialogo h3{
+    font-family: "antoniobold";
+    font-size: 35px;
+    margin-top: 13px;
+    letter-spacing: 5px;
+    color: #D20022;
+    text-align: center;
+}
+
+.cont-nombre-dialogo{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.nombre-dialogo-der{
+    width: 50%;
+    background-color:#D20022;
+    border: solid 1px #D20022;
+}
+
+.nombre-dialogo-izq{
+    width: 50%;
+    background-color:#ffffff;
+    border: solid 1px #ffffff;
+}
+
+.nombre-dialogo-der h1{
+    font-family: "antoniobold";
+    font-size: 35px;
+    margin-top: 13px;
+    margin-left: 50px;
+    letter-spacing: 8px;
+    color: #ffffff;
+    text-align: left;
+}
+
 
 
 .cont-datos-charla{
@@ -180,7 +273,7 @@ text-transform: uppercase;
 }
 
 .sponsors-d{
-    width: 200px;
+    width: 250px;
 }
 
 .cont-auspiciantes{
@@ -208,11 +301,12 @@ margin-right: auto;
 }
 
 .sponsors-silver{
-    height: 40px;
+    height: 80px;
 }
 
 .sponsors-auspician{
-    height: 50px;
+    height: 100px;
+    padding: 0px 20px;
 }
 
 .cont-auspiciantes h1{
@@ -423,11 +517,12 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-between; 
 box-sizing: border-box;   
+margin-bottom: 50px;
 }
 
 #eventosimple.evento{
 border-top: 0px;
-margin-top: 20px;
+margin-top: 0px;
 }
 
 .evento-descripcion{
@@ -462,7 +557,7 @@ text-align: center;
 }
 
 .orador-evento p{
-font-family: "antoniobold";
+font-family: 'portadaregular', Georgia, 'Times New Roman', Times, serif;
 font-size: 14px;
 color: #606060;
 margin:0px ;
@@ -719,6 +814,47 @@ opacity: .5;
     padding-bottom: 10px !important;
 }
 
+
+.cont-mesa-dialogo{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.titulo-dialogo{
+    width: 100%;
+}
+
+.titulo-dialogo h1{
+margin: 20px 0px;
+}
+
+.fecha-dialogo{
+    width: 50%;
+}
+
+.hora-dialogo{
+    width: 50%;
+}
+
+.cont-nombre-dialogo{
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.nombre-dialogo-der{
+    width: 100%;
+}
+
+.nombre-dialogo-der h1{
+    margin-left:0px;
+    text-align: center;
+    letter-spacing: 6px;
+}
+
+.nombre-dialogo-izq{
+    width: 100%;
+}
+
 .titulo-general h1{
     font-size: 50px;
     text-transform: uppercase;
@@ -788,7 +924,7 @@ opacity: .5;
 }
 
 .sponsors-auspician{
-    width: 260px;
+    width: 100%;
     height: auto;
 }
 
