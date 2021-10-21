@@ -557,11 +557,12 @@ text-align: center;
 }
 
 .orador-evento p{
-font-family: 'portadaregular', Georgia, 'Times New Roman', Times, serif;
-font-size: 14px;
+font-family: 'antonio', Georgia, 'Times New Roman', Times, serif;
+font-size: 16px;
 color: #606060;
 margin:0px ;
 padding: 10px 0px;
+line-height: 1.5;
 }
 
 .linea-flecha{
@@ -772,6 +773,16 @@ opacity: .5;
 .carousel__activator:nth-of-type(7):checked ~ .carousel-screen .carousel-track {
 	-webkit-transform: translateX(-600%);
 	transform: translateX(-600%);
+}
+
+.carousel__activator:nth-of-type(8):checked
+	~ .carousel-controls:nth-of-type(8) {
+	display: flex;
+}
+
+.carousel__activator:nth-of-type(8):checked ~ .carousel-screen .carousel-track {
+	-webkit-transform: translateX(-700%);
+	transform: translateX(-700%);
 }
 
 .carousel-screen {
