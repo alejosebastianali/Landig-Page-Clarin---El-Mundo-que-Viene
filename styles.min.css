@@ -785,6 +785,16 @@ opacity: .5;
 	transform: translateX(-700%);
 }
 
+.carousel__activator:nth-of-type(9):checked
+	~ .carousel-controls:nth-of-type(9) {
+	display: flex;
+}
+
+.carousel__activator:nth-of-type(9):checked ~ .carousel-screen .carousel-track {
+	-webkit-transform: translateX(-800%);
+	transform: translateX(-800%);
+}
+
 .carousel-screen {
 	overflow: hidden;
 	margin-left: -16px;
