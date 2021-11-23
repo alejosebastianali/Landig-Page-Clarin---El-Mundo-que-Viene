@@ -795,6 +795,16 @@ opacity: .5;
 	transform: translateX(-800%);
 }
 
+.carousel__activator:nth-of-type(10):checked
+	~ .carousel-controls:nth-of-type(10) {
+	display: flex;
+}
+
+.carousel__activator:nth-of-type(10):checked ~ .carousel-screen .carousel-track {
+	-webkit-transform: translateX(-900%);
+	transform: translateX(-900%);
+}
+
 .carousel-screen {
 	overflow: hidden;
 	margin-left: -16px;
@@ -891,8 +901,17 @@ margin: 20px 0px;
 
 
     .titulo-charla h1 {
-        font-size: 50px;
+        font-size: 40px;
+        letter-spacing: 1px;
+
     }
+
+    .titulo-charla-vm h1 {
+        font-size: 30px;
+        letter-spacing: 1px;
+    }
+
+
 
 .cont-logos-sponsors{
     width: 100%;
