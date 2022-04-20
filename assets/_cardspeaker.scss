@@ -1,0 +1,87 @@
+section#speakers{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 1000;
+
+
+
+    .cont-card{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        margin-bottom: 30px;
+
+        .card-foto img{
+        width:300px;
+        height:300px;
+        border-radius:150px;
+        }
+
+        .card-nombre{
+            h3{
+                font-family: $avenirBlack;
+                font-size: 24px;
+                color: $colorClarin;
+                margin: 10px;
+                text-align: center;
+            }
+        }
+
+        .card-cargo{
+            p{
+                font-family:$avenirBook;
+                font-size: 16px;
+                color: $colorTexto03;
+                margin: 0px;
+                text-align: center;
+                font-weight: normal;
+            }
+        }
+
+    }
+
+}
+
+
+@media (max-width: 1366px){
+    section#speakers{
+        width: 80%;
+    }
+}
+
+@media (max-width: 1000px){
+
+
+    section#speakers{
+        width: 100%;
+        z-index: 1000;
+    
+        .cont-card{
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            margin-bottom: 30px;
+    
+            .card-foto img{
+            width:200px;
+            height:200px;
+            border-radius:100px;
+            }
+       
+        }
+    
+    }
+
+
+}
+

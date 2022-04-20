@@ -1,0 +1,279 @@
+section#contenido{
+    width: 60%;
+    height:300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-top: 4px solid $colorClarin;
+    position: relative;
+    z-index: 1000;
+
+
+    .cont-fechas{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+
+        .fechas-top{
+            width: 95%;
+            height: auto;
+            margin-left: 5%;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+
+            .fechas-top-a{
+                width: 80px;
+                height: 80px;
+                padding: 5px;
+                background-color: $colorClarin;
+                box-sizing: border-box;
+
+                h1{
+                    font-family: $montserratRegular;
+                    font-size:50px ;
+                    color: $colorTexto02;
+                    margin: 0px;
+                    font-weight: normal ;
+                    text-align: center;
+                }
+            }
+
+            .fechas-top-b{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                align-content: center;
+                justify-content: end;
+ 
+                h4{
+                    font-family: $portadaRegular;
+                    font-size:14px ;
+                    color: $colorTexto01;
+                    margin: 0px;
+                    font-weight: bold ;
+                    text-align: right;
+                }
+
+                img{
+                    width: 100px;
+                    height: auto;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+
+            }
+
+        }
+
+        .fechas-bottom{
+            width: 95%;
+            height: auto;
+            margin-left: 5%;
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+
+            .fechas-bottom-a{
+                width: 80px;
+                height: 80px;
+            }
+
+            .fechas-bottom-b{
+                width: 100%;
+                height: auto;
+                display: flex;
+                flex-direction: row;
+
+                .fechas-bottom-01{
+                    width: 50%;
+                    background-color: $grisGeneral ;
+                    padding: 20px;
+                    box-sizing: border-box;
+
+                    h1{
+                        font-family: $montserratBold;
+                        font-size: 25px;
+                        color: $colorTexto01;
+                        margin: 0px;
+                        text-align: left;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .fechas-bottom-02{
+                    width: 50%;
+                    height: auto;
+                    background-color: $colorClarin;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    text-align: center;
+
+                    .fechas-dia{
+                        width: 80%;
+                        margin-left: auto;
+                        margin-right: auto;
+
+                        h1{
+                            font-family: $montserratRegular;
+                            font-size: 25px;
+                            color: $colorTexto02;
+                            margin: 0px;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                    }
+
+                }
+             }
+
+        }
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    section#contenido{
+        width: 90%;
+        height:300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 40px;
+        border-top: 4px solid $colorClarin;
+        position: relative;
+        z-index: 1000;
+    
+    
+        .cont-fechas{
+            width: 100%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+    
+            .fechas-top{
+                width: 95%;
+                height: auto;
+                margin-left: 5%;
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                align-items: center;
+    
+                .fechas-top-a{
+                    width: 80px;
+                    height: 80px;
+                    padding: 5px;
+                    background-color: $colorClarin;
+                    box-sizing: border-box;
+    
+                    h1{
+                        font-family: $montserratRegular;
+                        font-size:50px ;
+                        color: $colorTexto02;
+                        margin: 0px;
+                        font-weight: normal ;
+                        text-align: center;
+                    }
+                }
+    
+                .fechas-top-b{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: end;
+     
+                    h4{
+                        font-family: $portadaRegular;
+                        font-size:10px ;
+                        color: $colorTexto01;
+                        margin: 0px;
+                        font-weight: bold ;
+                        text-align: right;
+                    }
+    
+                    img{
+                        width: 100px;
+                        height: auto;
+                        margin-left: 10px;
+                    }
+    
+                }
+    
+            }
+    
+            .fechas-bottom{
+    
+                .fechas-bottom-a{
+                    width: 0px;
+                    height: 0px;
+                }
+    
+                .fechas-bottom-b{
+                    width: 100%;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+    
+                    .fechas-bottom-01{
+                        width:100%;
+                        background-color: $grisGeneral ;
+                        padding: 20px;
+                        box-sizing: border-box;
+    
+                        h1{
+                            font-family: $montserratBold;
+                            font-size: 25px;
+                            color: $colorTexto01;
+                            margin: 0px;
+                            text-align: left;
+                            text-transform: uppercase;
+                        }
+                    }
+    
+                    .fechas-bottom-02{
+                        width: 100%;
+                        height: auto;
+                        background-color: $colorClarin;
+                        display: flex;
+                        align-content: center;
+                        align-items: center;
+                        text-align: center;
+    
+                        .fechas-dia{
+                            width: 80%;
+                            margin-left: auto;
+                            margin-right: auto;
+    
+                            h1{
+                                font-family: $montserratRegular;
+                                font-size: 25px;
+                                color: $colorTexto02;
+                                margin: 15px;
+                                text-align: center;
+                                text-transform: uppercase;
+                            }
+                        }
+    
+                    }
+                 }
+    
+            }
+        }
+    
+    }
+
+}
