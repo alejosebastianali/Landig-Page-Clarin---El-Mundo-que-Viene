@@ -4,37 +4,37 @@ body {
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url(..//fonts/Montserrat-Bold.woff);
+  src: url(fonts/Montserrat-Bold.woff);
 }
 
 @font-face {
   font-family: Montserrat-Medium;
-  src: url(..//fonts/Montserrat-Medium.woff);
+  src: url(fonts/Montserrat-Medium.woff);
 }
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url(..//fonts/Montserrat-Regular.woff);
+  src: url(fonts/Montserrat-Regular.woff);
 }
 
 @font-face {
   font-family: Portada-Regular;
-  src: url(..//fonts/portada-regular-webfont.woff);
+  src: url(fonts/portada-regular-webfont.woff);
 }
 
 @font-face {
   font-family: AvenirLTStd-Black;
-  src: url(..//fonts/AvenirLTStd-Black.woff);
+  src: url(fonts/AvenirLTStd-Black.woff);
 }
 
 @font-face {
   font-family: AvenirLTStd-Book;
-  src: url(..//fonts/AvenirLTStd-Black.woff);
+  src: url(fonts/AvenirLTStd-Black.woff);
 }
 
 @font-face {
   font-family: Antonio-Regular;
-  src: url(..//fonts/Antonio-Regular.woff);
+  src: url(fonts/Antonio-Regular.woff);
 }
 
 section#contenido {
