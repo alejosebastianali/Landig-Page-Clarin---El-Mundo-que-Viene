@@ -1,0 +1,64 @@
+section#footermundo{
+    .cont-footer{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 40px 20% 10% 20%;
+        box-sizing: border-box;
+        background-color: $grisVectores;
+        position: absolute;
+        z-index: 1000;
+    
+
+        .titulo-proximas{
+            h4{
+                font-family: $portadaRegular;
+                font-size: 20px;
+                color: $colorTexto04;
+                margin: 0px;
+                text-align: left;
+            }
+        }
+
+        .proximas-mesas{
+            h2{
+                font-family: $avenirBlack;
+                font-size: 30px;
+                color: $colorClarin;
+                margin:20px 0px;
+                text-align: justify;
+            }
+        }
+    }
+}
+
+@media (max-width: 1000px){
+  
+    section#footermundo{
+        .cont-footer{
+            width: 100%;    
+            padding: 40px 5%;    
+    
+            .titulo-proximas{
+                h4{
+                    font-family: $portadaRegular;
+                    font-size: 16px;
+                    color: $colorTexto04;
+                    margin: 0px;
+                    text-align: left;
+                }
+            }
+    
+            .proximas-mesas{
+                h2{
+                    font-family: $avenirBlack;
+                    font-size: 16px;
+                    color: $colorClarin;
+                    margin:20px 0px;
+                    text-align: justify;
+                }
+            }
+        }
+    }
+    
+}
