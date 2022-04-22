@@ -1,0 +1,79 @@
+body{
+margin: 0px;
+}
+
+//Colores Generales
+
+$colorClarin:#D70F22;
+$grisGeneral:#D9D9D9;
+$grisLinea:#D9D9D9;
+$grisVectores:#F1F1F2;
+$colorTexto01:#161511;
+$colorTexto02:#ffffff;
+$colorTexto03:#666361;
+$colorTexto04:#58595B;
+
+//Textos Generales
+
+@font-face{
+    font-family: Montserrat-Bold;
+    src: url(./fonts/Montserrat-Bold.woff);
+}
+
+@font-face{
+    font-family: Montserrat-Medium;
+    src: url(./fonts/Montserrat-Medium.woff);
+}
+
+@font-face{
+    font-family: Montserrat-Regular;
+    src: url(./fonts/Montserrat-Regular.woff);
+}
+
+@font-face{
+    font-family: Portada-Regular;
+    src: url(./fonts/portada-regular-webfont.woff);
+}
+
+@font-face{
+    font-family: AvenirLTStd-Black;
+    src: url(./fonts/AvenirLTStd-Black.woff);
+}
+
+@font-face{
+    font-family: AvenirLTStd-Book;
+    src: url(./fonts/AvenirLTStd-Black.woff);
+}
+
+@font-face{
+    font-family: Antonio-Regular;
+    src: url(./fonts/Antonio-Regular.woff);
+}
+
+$montserratBold:"Montserrat-Bold";
+
+$montserratMedium:"Montserrat-Medium";
+
+$montserratRegular:"Montserrat-Regular";
+
+$portadaRegular:"Portada-Regular";
+
+$avenirBook:"AvenirLTStd-Book";
+
+$avenirBlack:"AvenirLTStd-Black";
+
+$antonioRegular:"Antonio-Regular";
+
+//Compilado
+
+@import "assets/header";
+
+@import "assets/secciones";
+
+@import "assets/cardspeaker";
+
+@import "assets/sponsors";
+
+@import "assets/footermundo";
+
+
